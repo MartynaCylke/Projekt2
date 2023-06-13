@@ -4,7 +4,7 @@ body {
 
 .intro {
   background-image: url("https://i.postimg.cc/qqT7jZLg/pexels-alexander-zvir-12327601.jpg");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; /* dodane a jak otwieram narzedzia deweloperkie to nie ma roznicy  */
   background-size: cover;
   height: 700px;
 }
@@ -49,7 +49,7 @@ h3 {
 }
 
 .btn {
-  display: inline-block;
+  display: inline-block; /* nie moge tego wysrodkowac */
   min-width: 160px;
   margin: 30px auto 0 auto;
   padding: 10px;
@@ -71,6 +71,7 @@ h3 {
 }
 
 .services-title {
+  /* nie moge tego wysrodkowac */
   text-align: center;
   margin-left: 50%;
   margin-right: 50%;
@@ -202,6 +203,6 @@ h3 {
     margin-bottom: 50px;
   }
   .col-md-4 {
-    padding-bottom: 20px;
+    padding-bottom: 20px; /* nie wiem czy to ma byc do colmd4 */
   }
 }
